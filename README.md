@@ -23,3 +23,14 @@ nLog(http://nlog-project.org/)    <br />
 CommonLogging(http://netcommon.sourceforge.net/)   <br />
 ObjectGuy(http://www.theobjectguy.com/dotnetlog/)   <br />
 ELMAH(https://code.google.com/p/elmah/)  <br />
+
+
+
+### DB log
+![DB log](https://github.com/shahedbd/SerilogASPNETCore/blob/master/Sln.SerilogASPNETCore/SerilogASPNETCoreMSSQLDB/ProjectNotes/Resources/MSSQLDBLogs.png)
+
+
+<br />
+
+### File log
+![File log](https://github.com/shahedbd/SerilogASPNETCore/blob/master/Sln.SerilogASPNETCore/SerilogASPNETCoreMSSQLDB/ProjectNotes/Resources/TextFileLogs.png)
