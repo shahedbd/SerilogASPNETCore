@@ -1,0 +1,16 @@
+22-Aug-2018 18:36:16.426 +06:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-Aug-2018 18:36:17.229 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:31038/  0
+22-Aug-2018 18:36:17.229 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:31038/  
+22-Aug-2018 18:36:17.296 +06:00 [INF] Request finished in 67.6792ms 200 
+22-Aug-2018 18:36:17.606 +06:00 [INF] Route matched with {action = "Index", controller = "BasicInfoes"}. Executing action SerilogASPNETCoreFileSinks.Controllers.BasicInfoesController.Index (SerilogASPNETCoreFileSinks)
+22-Aug-2018 18:36:17.855 +06:00 [INF] Executing action method SerilogASPNETCoreFileSinks.Controllers.BasicInfoesController.Index (SerilogASPNETCoreFileSinks) - Validation state: "Valid"
+22-Aug-2018 18:36:17.865 +06:00 [INF] BasicInfo Index has been called successfully
+22-Aug-2018 18:36:18.090 +06:00 [INF] Entity Framework Core 2.1.0-rtm-30799 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+22-Aug-2018 18:36:18.373 +06:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[BasicInfoID], [b].[City], [b].[Country], [b].[DateOfBirth], [b].[Email], [b].[FirstName], [b].[LastName], [b].[MobileNo], [b].[NID], [b].[Status]
+FROM [BasicInfo] AS [b]
+22-Aug-2018 18:36:18.494 +06:00 [INF] Executed action method SerilogASPNETCoreFileSinks.Controllers.BasicInfoesController.Index (SerilogASPNETCoreFileSinks), returned result Microsoft.AspNetCore.Mvc.ViewResult in 629.9211ms.
+22-Aug-2018 18:36:18.549 +06:00 [INF] Executing ViewResult, running view Index.
+22-Aug-2018 18:36:18.758 +06:00 [INF] Executed ViewResult - view Index executed in 235.95450000000002ms.
+22-Aug-2018 18:36:18.771 +06:00 [INF] Executed action SerilogASPNETCoreFileSinks.Controllers.BasicInfoesController.Index (SerilogASPNETCoreFileSinks) in 1164.2113000000002ms
+22-Aug-2018 18:36:18.790 +06:00 [INF] Request finished in 1563.5678ms 200 text/html; charset=utf-8

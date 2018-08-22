@@ -1,0 +1,33 @@
+﻿
+https://www.nuget.org/packages/serilog/
+Main:(Not this project)  Install-Package Serilog -Version 2.7.1 
+
+
+
+For MSSQL
+Install-Package Serilog.AspNetCore -Version 2.1.1 
+Install-Package Serilog.Settings.Configuration -Version 2.6.1
+Install-Package Serilog.Sinks.MSSqlServer -Version 5.1.2
+
+
+FileSinks
+Install-Package Serilog.AspNetCore -Version 2.1.1 
+Install-Package Serilog.Settings.Configuration -Version 2.6.1
+Install-Package Serilog.Sinks.File -Version 4.0.0 
+
+
+
+Ref:
+https://www.c-sharpcorner.com/article/file-logging-and-ms-sql-logging-using-serilog-with-asp-net-core-2-0/
+https://serilog.net/
+https://github.com/serilog/serilog
+
+
+
+
+##In .NET platform, there are multiple matured logging frameworks such as:
+Log4Net(http://logging.apache.org/log4net/)
+nLog(http://nlog-project.org/)
+CommonLogging(http://netcommon.sourceforge.net/)
+ObjectGuy(http://www.theobjectguy.com/dotnetlog/)
+ELMAH(https://code.google.com/p/elmah/)

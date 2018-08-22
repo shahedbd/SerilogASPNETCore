@@ -1,0 +1,69 @@
+﻿
+******* For checking [ERR]: Wrong connection string
+
+IConfiguration _configuration;
+	public BasicInfoesController(DataBaseContext context, IConfiguration configuration)
+	{
+		_context = context;
+		_configuration = configuration;
+	}
+
+var connectionstring = _configuration["ConnectionStrings:MSSQLConnAAA"];
+            try
+            {
+                //DbContext
+                DbContextOptions abc = Helper.GetOptions(connectionstring);
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+******* IConfiguration _configuration;
+IConfiguration _configuration;
+        public BasicInfoesController(DataBaseContext context, IConfiguration configuration)
+        {
+            _context = context;
+            _configuration = configuration;
+        }
+
+ViewBag.Mystatus = _configuration["Mystatus"];
+ViewBag.connectionstring = _configuration["ConnectionStrings:MSSQLConn"];
+
+
+<h3>@ViewBag.connectionstring</h3>
+<h3>@ViewBag.Mystatus</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

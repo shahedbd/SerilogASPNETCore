@@ -1,0 +1,28 @@
+22-Aug-2018 17:56:17.908 +06:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+22-Aug-2018 17:56:18.657 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:31038/  
+22-Aug-2018 17:56:18.657 +06:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:31038/  0
+22-Aug-2018 17:56:18.696 +06:00 [INF] Request finished in 39.5674ms 200 
+22-Aug-2018 17:56:18.870 +06:00 [INF] Route matched with {action = "Index", controller = "BasicInfoes"}. Executing action SerilogASPNETCoreFileSinks.Controllers.BasicInfoesController.Index (SerilogASPNETCoreFileSinks)
+22-Aug-2018 17:56:19.078 +06:00 [INF] Executing action method SerilogASPNETCoreFileSinks.Controllers.BasicInfoesController.Index (SerilogASPNETCoreFileSinks) - Validation state: "Valid"
+22-Aug-2018 17:56:21.368 +06:00 [INF] BasicInfo Index has been called successfully
+22-Aug-2018 17:56:21.474 +06:00 [INF] Executed action SerilogASPNETCoreFileSinks.Controllers.BasicInfoesController.Index (SerilogASPNETCoreFileSinks) in 2600.7158ms
+22-Aug-2018 17:56:21.476 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: connectionString
+   at SerilogASPNETCoreFileSinks.Controllers.BasicInfoesController.Index() in E:\gitClone\TMP\Sln.SerilogASPNETCore\SerilogASPNETCoreFileSinks\Controllers\BasicInfoesController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+22-Aug-2018 17:56:21.560 +06:00 [INF] Request finished in 2906.7294ms 500 text/html; charset=utf-8
